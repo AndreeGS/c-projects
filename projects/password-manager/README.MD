@@ -2,16 +2,6 @@
 
 Um gerenciador de senhas simples, escrito em C, com arquitetura modular e criptografia básica usando OpenSSL. Permite salvar, listar e proteger credenciais de serviços de forma segura.
 
-## Estrutura do projeto
-password-manager/
-│
-├── crypto/ # Funções de criptografia e hashing
-├── models/ # Estruturas de dados (Credential, Vault)
-├── storage/ # Leitura e gravação do vault em disco
-├── vault/ # Lógica do gerenciador (CRUD)
-├── main.c # Interface principal (CLI)
-└── Makefile # Arquivo de compilação
-
 ## Funcionalidades
 
 - Adicionar credenciais (serviço, usuário e senha)
